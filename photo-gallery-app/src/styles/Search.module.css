@@ -15,10 +15,33 @@ gap: 1rem;
   border-radius: 30px;
 }
 
+.searchBtn:hover{
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+  height: 2.7rem;
+  width: 8.3rem;
+}
+
 .searchInput{
   width: 100%;
   padding: 0.3rem;
   font-size: 1.1rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-radius: 5px
+}
+
+.searchInput:focus{
+  border: 2.3px black solid;
+    height: 2rem;
+    width: 110%;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
 }

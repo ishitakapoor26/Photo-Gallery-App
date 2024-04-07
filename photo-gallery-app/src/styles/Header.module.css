@@ -10,14 +10,20 @@
 h3{
   color: white;
   font-size: 1.2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
   font-family: cursive;
+  margin-left: 1rem;
 }
 
 ul{
   list-style: none;
   width: 100%;
+  position: fixed;
+  background-color: rgb(12 12 12);
+  height: 3.8rem;
+  display: flex;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 a{
@@ -27,6 +33,7 @@ a{
 
 .navMenu{
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   color: white;
+  gap: 6rem;
 }

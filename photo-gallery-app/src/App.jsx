@@ -29,7 +29,11 @@ function App() {
         </Helmet>
       </div>
       <Header />
-      <Search />
+      <Search
+        nextCursor={nextCursor}
+        setImageList={setImageList}
+        setNextCursor={setNextCursor}
+      />
       <Gallery
         galleryData={imageList}
         nextCursor={nextCursor}

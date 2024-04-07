@@ -4,10 +4,12 @@ const Header = () => {
   return (
     <header className={css["header"]}>
       <nav className={css["navBar"]}>
-        <h3 className={css["icon"]}>
-          <a href="#">PicPerfect </a>
-        </h3>
         <ul className={css["navMenu"]}>
+          <li>
+            <h3 className={css["icon"]}>
+              <a href="#">PicPerfect </a>
+            </h3>
+          </li>
           <li>
             {" "}
             <a href="#"> Home </a>
